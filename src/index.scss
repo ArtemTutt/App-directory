@@ -12,9 +12,9 @@ body {
 
 .App {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
-  width: 800px;
+  width: 850px;
   margin: 100px auto;
   background-color: #fff;
   padding: 30px;
@@ -62,7 +62,7 @@ body {
     }
 
     &.active {
-      background-color: #16b67f;
+      background-color: #c4af7b;
       color: #fff;
     }
 

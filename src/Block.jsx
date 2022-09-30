@@ -8,6 +8,7 @@ export const Block = ({ value, currency, onChangeValue, onChangeCurrency }) => (
             {defaultCurrencies.map((cur) => (
                 <li
                     onClick={() => onChangeCurrency(cur)}
+                    // className={currency === cur ? 'active' : ''}
                     className={currency === cur ? 'active' : ''}
                     key={cur}>
                     {cur}
